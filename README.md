@@ -7,7 +7,7 @@ gcc Kernel64Patcher.c -o Kernel64Patcher
 ```
 ## Usage:
 ```
-./Kernel64Patcher kcache.raw kcache.patched -e -p
+./Kernel64Patcher mobactivationd.raw mobactivationd.patched -b -c -d
 ```
 ## Credits/Thanks
 * xerub for patchfinder64
