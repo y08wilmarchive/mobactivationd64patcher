@@ -113,9 +113,9 @@ int main(int argc, char **argv) {
     
     if(argc < 4){
         printf("Usage: %s <mobactivationd_in> <mobactivationd_out> <args>\n",argv[0]);
-        printf("\t-b\t\tPatch dealwith_activation (iOS 8 Only)\n");
-        printf("\t-c\t\tPatch handle_deactivate (iOS 8 Only)\n");
-        printf("\t-d\t\tPatch check_build_expired (iOS 8 Only)\n");
+        printf("\t-b\t\tPatch dealwith_activation (iOS 8& 9 Only)\n");
+        printf("\t-c\t\tPatch handle_deactivate (iOS 8& 9 Only)\n");
+        printf("\t-d\t\tPatch check_build_expired (iOS 8& 9 Only)\n");
         
         return 0;
     }
